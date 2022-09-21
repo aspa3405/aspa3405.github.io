@@ -8,10 +8,11 @@ html {
 
 body {
   margin: 0;
-  background: top/contain
+  background: url(./img/topimageLarge.jpeg),url(./img/bottomimageSmall.jpeg) 
               no-repeat
-              url(./img/topimageLarge.jpeg) 
               #cccc;
+              position: top, bottom;
+
 }
 
 article {
