@@ -25,6 +25,8 @@
     position: absolute;
     bottom: 8mm;
     right: 20mm;
+    border-top: 1mm solid green;
+    border-bottom: 1mmsolid red;
   }
 
   h1 {
@@ -41,3 +43,15 @@
     text-shadow: 1px 1px 1px black;
   }
   /* Your CSS below here */
+article {
+    background-image: url(topimage.jpeg), linear-gradient(to bottom, rgba(0,0,0,0) 25%, rgba(0,0,0,0) 75%, rgba(0,0,0,25)), url(bottomimgae.jpeg);
+    background-color: white;
+    border-top: 1mm red;
+    border-bottom: 1mm red;
+}
+
+h1 {
+    background-image: url(logo.jpeg);
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+}
