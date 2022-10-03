@@ -1,7 +1,13 @@
 .navbar {
-  border-color: #FA5900;  
+  .box {
+    background: linear-gradient(
+          105deg,
+          rgba(255, 255, 255, 0.2) 39%,
+          rgba(51, 56, 57, 1) 96%
+        ) center center / 400px 200px no-repeat, url(big-star.png) center
+        no-repeat, rebeccapurple;
+  }  
   overflow: hidden;
-    background-color: #ffffff;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -48,5 +54,23 @@ display: flex;
 
   @media only screen and (max-width: 600px){
     html{background-color: grey;}
+    .navbar{
+      font-size: large;
+    }
+    h1{
+      font-size: 3px;
+      text-align: left;
+      font-weight: 700;
+      color: #5BCCBF;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .grid{
+      margin: 0 2rem;
+      padding:3rem 2rem;
+      grid-template-columns: 1.5fr 4fr;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      height: 70em;
+    }
 }
 
