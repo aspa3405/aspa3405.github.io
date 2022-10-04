@@ -13,6 +13,7 @@
   .navbar a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     float:right;
+    margin-top: 0.8rem;
     display:block;
     color: skyblue;
     text-align: center;
