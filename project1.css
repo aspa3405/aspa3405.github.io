@@ -1,76 +1,70 @@
 .navbar {
-  .box {
-    background: linear-gradient(
-          105deg,
-          rgba(255, 255, 255, 0.2) 39%,
-          rgba(51, 56, 57, 1) 96%
-        ) center center / 400px 200px no-repeat, url(big-star.png) center
-        no-repeat, rebeccapurple;
-  }  
-  overflow: hidden;
+    border: solid;
+    border-width: 1px;
+    border-color: tomato;
+    padding: 4px 4px; 
+    overflow: hidden;
     position: fixed; 
     top: 0; 
     width: 100%; 
   }
   .navbar a {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    float: right;
-    display: block;
-    color: #06A3d1;
+    float:right;
+    display:block;
+    color: skyblue;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 16px 16px;
   }
-  
-  /* Change background on mouse-over */
   .navbar a:hover {
     background: #ddd;
-    color: #5BCCBF;
-  }
-  
-  
-  .main {
-    margin-top: 30px; 
-  }
-  h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color:cadetblue;
   }
   img{
-position: fixed;
-display: flex;
+    height: 420px;
+    width: 340px;
+    float: left;
+    padding: 20px;
+  }
+  h1{
+    font-size: 35px;
+    text-align: left;
+    font-weight: 700;
+    color: skyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
-  .column{
-      float: left;
-      width: 33.33%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    overflow:hidden;
-    display: flex;
+  p{
+    font-size: 17px;
+    word-spacing:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  @media only screen and (max-width: 600px){
-    html{background-color: grey;}
-    .navbar{
-      font-size: large;
-    }
-    h1{
-      font-size: 3px;
-      text-align: left;
-      font-weight: 700;
-      color: #5BCCBF;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .grid{
+    /*.grid{
       margin: 0 2rem;
       padding:3rem 2rem;
       grid-template-columns: 1.5fr 4fr;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
       height: 70em;
+    }*/
+
+    @media only screen and (max-width: 600px){
+      html{background-color: grey;}
+      .navbar{
+        font-size: large;
+        float:right;
+    
+        
+      }
+      @media (orientation: portrait){
+        .navbar{ border-color: cadetblue
+      }
     }
-}
+  }
+  
 
