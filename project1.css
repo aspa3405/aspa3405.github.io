@@ -1,4 +1,5 @@
 /*nav bar css*/
+
 .navbar {
     background-color: white; 
     overflow: hidden;
@@ -23,6 +24,7 @@
     background: #ddd;
     color:cadetblue; 
   }
+
   /*design of index page*/
   .indexgrid{
     margin: 0 3rem;
@@ -31,107 +33,91 @@
     grid-template-columns: 1.6fr 4fr;
     column-gap: 4rem;
   }
-  
-  div{
-    padding-top: 10em;
-  }
   img{
-    height: 420px;
-    width: 340px;
+    max-width: 400px;
     float: left;
-    padding: 20px;
+    padding-top: 1em;
   }
-
-  body{ 
-    margin-left: 0em;
-    margin-right: 10em;
-  }
-  h2{
+  h1{
     font-family:'Times New Roman', Times, serif;
-    padding-top: 1.5em;
+    font-size: large;
+    padding-top: 3em;
     text-align: center;
   }
+  h2{
+    color: grey;
+    text-align: center;
+    padding-top:300px
+  }
   p{
-    padding-top: 15px;
+    padding-top: 100pxpx;
     word-spacing:5px;
     font-size: large;
     font-family:'Times New Roman', Times, serif;
   }
-
-/*design of Contact page*/
+  /*design of Contact page*/
 
   .contactheader{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-
   .insta{
     border: solid;
+    flex: center;
     text-align: center;
     border-width: 0.6px;
     border-color: cadetblue;
     font-size: large;
-    display: grid;
-    padding: 4rem;
+    padding: 2rem;
     font-family:'Times New Roman', Times, serif;
   }
   .email{
     border: solid;
+    flex: center;
     text-align: center;
     border-width: 0.6px;
     border-color: cadetblue;
     font-size: large;
-    display: grid;
-    padding: 4rem;
+    padding: 2rem;
     font-family:'Times New Roman', Times, serif;
   }
   .pinterest{
     text-align: center;
+    flex: center;
     border: solid;
     border-width: 0.6px;
     border-color: cadetblue;
     font-size: large;
-    display: grid;
-    padding: 4rem;
+    padding: 2rem;
     font-family:'Times New Roman', Times, serif;
   }
 
+ h2{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-top: solid cadetblue;
+  border-bottom: solid cadetblue;
+ }
 
-
-  /* photography page
-  .photogrid{
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1px;
-    }
-    .imagegrid{
-    min-width: auto;
-    min-height: auto;
-    }
-    .column1 {
-      grid-template-columns: auto;
-      flex: 50%;
-      padding: 0 4px;
-    }
-    .column2{
-      grid-template-columns: auto;
-      flex: 50%;
-      padding: 0 4px;
-    }*/
-    .img-row{
-      display: inline-block;
-      padding-left: 4em;
-    }
-    .img-column{
-      flex: 25%;
-      padding: 5px;
-    }
-
-
-
-
+/*photography and design page layouts*/
+ .photogrid{
+    list-style: none;
+    margin: 0;
+    padding: 5em 18em;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3em;
+}
+.designgrid{
+  list-style: none;
+    margin: 0;
+    padding: 5em 15em;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3em;
+}
+    /*responsive design!*/
 
     @media only screen and (max-width: 950px){
       html{background-color: white;}
@@ -149,8 +135,3 @@
           height: 55em;
         }
       }
-      
-    
-
-
-
