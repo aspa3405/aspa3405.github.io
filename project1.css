@@ -134,4 +134,22 @@
           grid-template-rows: 50%;
           height: 55em;
         }
+        .photogrid{
+          margin: 0 2rem;
+          padding:3rem 2rem;
+          grid-template-columns: 1.5fr 4fr;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+          grid-template-rows: 50%;
+          height: 55em;
+        }
+        .designgrid{
+          margin: 0 2rem;
+          padding:3rem 2rem;
+          grid-template-columns: 1.5fr 4fr;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+          grid-template-rows: 50%;
+          height: 55em;
+        }
       }
