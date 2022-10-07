@@ -97,7 +97,7 @@
 
 
 
-  /* photography page*/
+  /* photography page
   .photogrid{
       list-style: none;
       margin: 0;
@@ -119,7 +119,16 @@
       grid-template-columns: auto;
       flex: 50%;
       padding: 0 4px;
+    }*/
+    .img-row{
+      display: inline-block;
+      padding-left: 4em;
     }
+    .img-column{
+      flex: 25%;
+      padding: 5px;
+    }
+
 
 
 
