@@ -23,7 +23,6 @@
     background: #ddd;
     color:cadetblue; 
   }
-
   /*design of index page*/
   .indexgrid{
     margin: 0 3rem;
@@ -140,7 +139,9 @@
           grid-template-rows: 50%;
           height: 55em;
         }
-    }
+      }
+      
     
+
 
 
