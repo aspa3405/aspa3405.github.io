@@ -50,7 +50,7 @@
     padding-top:300px
   }
   p{
-    padding-top: 100pxpx;
+    padding-top: 100px;
     word-spacing:5px;
     font-size: large;
     font-family:'Times New Roman', Times, serif;
@@ -62,7 +62,6 @@
   }
   .insta{
     border: solid;
-    flex: center;
     text-align: center;
     border-width: 0.6px;
     border-color: cadetblue;
@@ -72,7 +71,6 @@
   }
   .email{
     border: solid;
-    flex: center;
     text-align: center;
     border-width: 0.6px;
     border-color: cadetblue;
@@ -82,7 +80,6 @@
   }
   .pinterest{
     text-align: center;
-    flex: center;
     border: solid;
     border-width: 0.6px;
     border-color: cadetblue;
