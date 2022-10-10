@@ -96,6 +96,24 @@
   border-top: solid cadetblue;
   border-bottom: solid cadetblue;
  }
+ .insta a{
+  color: skyblue;
+  font-size: x-large;
+ }
+ .insta a:hover{ 
+    background: #ddd;
+    color:cadetblue;
+    font-size: x-large;
+  }
+  .pinterest a{
+    color: skyblue;
+    font-size: x-large;
+  }
+  .pinterest a:hover{
+      background: #ddd;
+      color:cadetblue;
+      font-size: x-large;
+  }
 
 /*photography and design page layouts*/
  .photogrid{
