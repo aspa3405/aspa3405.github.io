@@ -1,0 +1,13 @@
+button{
+    border: solid white;
+    color: white;
+    background-color: lightblue;
+    padding: 1rem;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+button :hover{
+    color: orangered;
+}
+
+
