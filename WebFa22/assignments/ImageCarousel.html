@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <style>
+        h1 {
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    width: 640px;
+    margin: 0 auto;
+  }
+  
+  .full-img {
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+    background-color: rgba(0,0,0,0);
+  }
+  
+  button {
+    border: 0;
+    background: rgba(150,150,150,0.6);
+    text-shadow: 1px 1px 1px white;
+    border: 1px solid #999;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .thumb-bar img {
+    display: block;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+  }
+    </style>
+</head>
+<body>
+    <h1>Image gallery example</h1>
+
+    <div class="full-img">
+      <img class="displayed-img" src="/WebFa22/assignments/ICimages/pic1.jpg" alt="image of a hanging plant">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+      
+    </div>
+
+    <div class="thumb-bar">
+    </div>
+    <script src="/WebFa22/JS/ImageCarousel.JS"></script>
+</body>
+</html>
