@@ -34,6 +34,7 @@ class Ball {
         ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
         ctx.fill();
       }
+
       update() {
         if ((this.x + this.size) >= width) {
           this.velX = -(this.velX);
@@ -53,6 +54,7 @@ class Ball {
       
         this.x += this.velX;
         this.y += this.velY;
+        
       }
       collisionDetect() {
         for (const ball of balls) {
@@ -68,14 +70,19 @@ class Ball {
         }
       }
   }
+
+
   const testBall = new Ball(50, 100, 4, 4, "blue", 10);
   testBall.x;
   testBall.size;
   testBall.color;
   testBall.draw();
+  
+  
+  
   const balls = [];
 
-while (balls.length < 25) {
+while (balls.length < 30) {
   const size = random(10, 20);
   const ball = new Ball(
     // ball position always drawn at least one ball width
@@ -90,6 +97,7 @@ while (balls.length < 25) {
 
   balls.push(ball);
 }
+
 function loop() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
     ctx.fillRect(0, 0, width, height);
