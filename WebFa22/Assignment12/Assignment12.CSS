@@ -1,0 +1,24 @@
+html {
+    border: 1px;
+    text-align:center;
+}
+
+body{
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:saddlebrown;
+    margin-top: 12rem;
+}
+input{
+    font-size:xx-large;
+}
+h2{
+    border: solid 1px black;
+    margin-left: 27rem;
+    margin-right:27rem;
+}
+h3{
+    border: solid 1px black;
+    margin-left: 35rem;
+    margin-right:35rem;
+}
