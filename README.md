@@ -2,5 +2,4 @@
  Web Fa22
 
 
-***This will become my personal site where code and assignments will be stored for ATLS 2200.***
-:upside_down_face:
+***This has become my personal site where code, my portfolio website and class assignments are stored from ATLS 2200.***

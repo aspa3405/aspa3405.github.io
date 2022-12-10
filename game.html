@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="jump()">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <link rel="stylesheet" href="website.css">
+    <title>Hovering government drone</title>
+    <link rel="stylesheet" href="game.css">
+    <script defer src="game.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -18,14 +19,17 @@
             <li><a href="game.html">My Game</a></li>
         </ul>
     </nav>
-    
-<h2 class="ContactHeader">My contact information!</h2>
-    <p class="insta">See my instagram to get to know me! Here is my handle: 
-        <a href="https://www.instagram.com/_ashleypaulson/">@ _ashleypaulson!</a>
-    <p class="email"> Here is my student email:
-        aspa3405@colorado.edu
-        </p>
-    <p class="pinterest">See more of my style, mood boards, design inspitration and more through my pinterest! 
-        <a href="https://www.pinterest.com/ashleybpaulson/">@ashleybpaulson</a></p>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="birdy"></div>
+    </div>
+    <p id="HowTo"> How to play: </p>
+    <div id="instructions">
+    <ol>
+        <li>CLICK to make the bird fly higher</li>
+        <li>AVOID the trees for as long as you can!!</li>
+    </ol>
+</div>
 </body>
 </html>

@@ -24,6 +24,13 @@
     background: #ddd;
     color:cadetblue; 
   }
+  #photographytext{
+    color: black;
+    text-align: center;
+    padding-top:100px;
+    font-family: 'Gill sans';
+    font-weight: lighter;
+  }
 
   /*design of index page*/
   .indexgrid{
@@ -40,20 +47,24 @@
   }
   #name{
     font-family:'Brush Script MT';
+    font-weight: lighter;
     font-size:x-large;
     padding-top: 2em;
     text-align: center;
   }
-  #text{
+  h2{
     color: black;
     text-align: center;
-    padding-top:300px
+    padding-top:100px;
+    font-family: 'Brush Script MT'; 
+    font-weight: lighter;
   }
   #indexblurb{
     padding-top: 40px;
     word-spacing:5px;
     font-size: large;
     font-family:'Gill sans';
+    font-weight:lighter;
   }
   /*design of Contact page*/
 
@@ -64,29 +75,37 @@
   .insta{
     border: solid;
     text-align: center;
-    border-width: 0.6px;
+    border-width: 2px;
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
     font-family:'Gill sans';
+    max-width: 600px;
+    margin:auto;
+    margin-bottom: 2rem;
   }
   .email{
     border: solid;
     text-align: center;
-    border-width: 0.6px;
+    border-width: 2px;
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
     font-family:'Gill sans';
+    max-width: 600px;
+    margin:auto;
   }
   .pinterest{
     text-align: center;
     border: solid;
-    border-width: 0.6px;
+    border-width: 2px;
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
     font-family:'Gill sans';
+    max-width: 600px;
+    margin:auto;
+    margin-top:2rem;
   }
   /* about me page */
  #port{
@@ -95,6 +114,7 @@
   margin: auto;
   font-size: larger;
   font-family:'Gill sans';
+  font-weight:lighter;
   padding-top: 100px;
   padding-bottom: 50px;
   border-top: solid cadetblue;
@@ -106,7 +126,8 @@
   margin-right: 100px;
   margin-left:550px;
   font-family: 'Gill sans';
-  font-size: large;
+  font-size: larger;
+  font-weight: lighter;
   margin-top:150px;
  }
  #engagementPic{

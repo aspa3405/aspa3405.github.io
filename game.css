@@ -1,0 +1,83 @@
+
+/*nav bar css*/
+
+.navbar {
+    background-color: white; 
+    overflow: hidden;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+  }
+  .navbar a{
+    font-family:'Gill sans';
+    margin-top: 0.8rem;
+    display:block;
+    color: black;
+    text-align: center;
+    padding:10px 20px 10px;
+  }
+  .navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color:cadetblue; 
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 500px;
+    height: 500px;
+    border: 1px solid darkgreen;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightblue;
+} /*STOP HERE*/
+#block{
+    width: 40px;
+    height: 500px;
+    background-color: saddlebrown;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left:500px}
+    100%{left:-40px}
+}
+#hole{
+    width: 40px;
+    height: 150px;
+    background-color: lightblue;
+    position: relative;
+    left: 500px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#birdy{
+    width: 20px;
+    height: 20px;
+    background-color: darkgreen;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+}
+#HowTo{
+    margin:auto;
+    margin-left: 560px;
+    font-family: 'Gill sans';
+    font-size: xx-large;
+    color: orangered;
+}
+#instructions{
+    margin:auto;
+    margin-left: 500px;
+    font-family: 'Gill sans';
+    font-size: larger;
+    color: orangered;
+}
