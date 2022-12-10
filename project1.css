@@ -8,7 +8,7 @@
     width: 100%; 
   }
   .navbar a{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Gill sans';
     margin-top: 0.8rem;
     display:block;
     color: black;
@@ -36,29 +36,30 @@
   img{
     max-width: 400px;
     float: left;
-    padding-top: 1em;
+    padding-top: 0.5em;
   }
-  h1{
-    font-family:'Times New Roman', Times, serif;
-    font-size: large;
-    padding-top: 3em;
+  #name{
+    font-family:'Brush Script MT';
+    font-size:x-large;
+    padding-top: 2em;
     text-align: center;
   }
-  h2{
-    color: grey;
+  #text{
+    color: black;
     text-align: center;
     padding-top:300px
   }
-  p{
-    padding-top: 100px;
+  #indexblurb{
+    padding-top: 40px;
     word-spacing:5px;
     font-size: large;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Gill sans';
   }
   /*design of Contact page*/
 
-  .contactheader{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .ContactHeader{
+    font-family:'Brush Script MT';
+    font-size: xx-large;
   }
   .insta{
     border: solid;
@@ -67,7 +68,7 @@
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Gill sans';
   }
   .email{
     border: solid;
@@ -76,7 +77,7 @@
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Gill sans';
   }
   .pinterest{
     text-align: center;
@@ -85,16 +86,29 @@
     border-color: cadetblue;
     font-size: large;
     padding: 2rem;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Gill sans';
   }
-
+  /* about me page */
  h2{
   text-align: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family:'Gill sans';
   padding-top: 100px;
   padding-bottom: 50px;
   border-top: solid cadetblue;
   border-bottom: solid cadetblue;
+ }
+#facts{
+  padding:1rem;
+  max-width: 550px;
+  margin-right: 100px;
+  margin-left:550px;
+  font-family: 'Gill sans';
+  font-size: large;
+  margin-top:150px;
+ }
+ #engagementPic{
+  margin-left: 75px;
+  margin-top: 75px;
  }
  .insta a{
   color: skyblue;
@@ -115,6 +129,7 @@
       font-size: x-large;
   }
 
+
 /*photography and design page layouts*/
  .photogrid{
     list-style: none;
@@ -132,9 +147,10 @@
     grid-template-columns: 2fr 2fr;
     gap: 3em;
 }
-    /*responsive design!*/
 
-    @media only screen and (max-width: 950px){
+/*responsive design!*/
+
+    @media only screen and (max-width: 500px){
       html{background-color: white;}
       .navbar{
         font-size: large;
@@ -167,4 +183,5 @@
           grid-template-rows: 50%;
           height: 55em;
         }
+        
       }
