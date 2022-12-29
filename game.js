@@ -20,7 +20,7 @@ setInterval(function(){
     var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
     var bTop = -(500-birdyTop);
     if((birdyTop>480)||((blockLeft<20)&&(blockLeft>-50)&&((bTop<holeTop)||(bTop>holeTop+130)))){
-        alert("Game over. Score: ");
+        alert("Game over. Try again");
         birdy.style.top = 100 + "px";
         counter=0;
     }
