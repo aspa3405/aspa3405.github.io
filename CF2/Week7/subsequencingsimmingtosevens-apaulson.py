@@ -1,6 +1,6 @@
 #Ashley Paulson Subsequencessummingtosevens (Canvas problem 1)
 #Intro Code from Anthony Pinter.
-
+#changed input file name from 1.in to div7.in
 with open('div7.in') as read:
 	cows = [int(read.readline()) for _ in range(int(read.readline()))]
 
